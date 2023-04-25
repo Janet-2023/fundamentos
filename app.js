@@ -19,12 +19,24 @@ let country = 'Perú';
 
 let age = 27;
 let year = 1997;
-let date = 24/10;
+let tall =156;
 
 let logged= true;
 let notlogged = false;
 let active=true;
 let inactive=false;
+
+let nambers = ['Carlos', 'Marco', 'Jorge']
+
+let object= {
+    color: 'green',
+    size: 10,
+}
+
+let  food;
+let date;
+
+
 
 
 console.log(typeof name);
@@ -40,5 +52,5 @@ console.log(typeof logged);
 console.log(typeof notlogged);
 console.log(typeof active);
 console.log(typeof inactive);
-
+console.log(typeof nambers(2))
 
